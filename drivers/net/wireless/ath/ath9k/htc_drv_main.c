@@ -302,7 +302,7 @@ static int ath9k_htc_set_channel(struct ath9k_htc_priv *priv,
 	if (ret)
 		goto err;
 
-	htc_start_start(priv->htc);
+	htc_start_hst(priv->htc);
 
 	if (!test_bit(ATH_OP_SCANNING, &common->op_flags) &&
 	    !(hw->conf.flags & IEEE80211_CONF_OFFCHANNEL))
