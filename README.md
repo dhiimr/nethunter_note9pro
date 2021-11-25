@@ -19,7 +19,7 @@ cd kernel
 ```
 Download kernel source:
 ```bash
-git clone --depth=1 https://github.com/dhiimr/kernel_joyeuse_nethunter.git kernel_joyeuse_nethunter
+git clone --depth=1 https://github.com/dhiimr/nethunter_note9pro.git nethunter_note9pro
 ```
 Download a compatible GCC toolchain. I used UBERCT GCC 4.9 for 
 [arm64](https://bitbucket.org/UBERTC/aarch64-linux-android-4.9/src/master/).
@@ -34,7 +34,7 @@ git clone https://github.com/kdrag0n/proton-clang.git proton-clang
 ## 2. Building the kernel
 Move to the kernel folder:
 ```bash
-cd kernel_joyeuse_nethunter
+cd nethunter_note9pro
 ```
 Setup default config:
 ```bash
